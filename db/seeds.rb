@@ -14,6 +14,8 @@ Product.create(:title => 'Faucet 1',
       </p>},
   :image_url =>   '/images/faucet1.jpg',    
   :price => 34.00,
+#  :customer_price => 34.00,
+#  :wholesale_price => 15.00,
   :est_install_time_mins => 15)
 # . . .
 Product.create(:title => 'Faucet 2',
@@ -23,6 +25,8 @@ Product.create(:title => 'Faucet 2',
       </p>},
   :image_url => '/images/faucet2.jpg',
   :price => 24.86,
+#  :customer_price => 24.86,
+#  :wholesale_price => 11.00,
   :est_install_time_mins => 15)
 # . . .
 Product.create(:title => 'Faucet 3',
@@ -32,4 +36,6 @@ Product.create(:title => 'Faucet 3',
       </p>},
   :image_url => '/images/faucet3.jpg',
   :price => 98.00,
+#  :customer_price => 98.00,
+#  :wholesale_price => 35.00,
   :est_install_time_mins => 30)
